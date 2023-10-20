@@ -1,0 +1,34 @@
+{
+  "name": "simple-knip-config",
+  "version": "0.1.0",
+  "description": "",
+  "main": "knip.ts",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint .",
+    "typecheck": "tsc"
+  },
+  "keywords": [
+    "knip",
+    "unused code",
+    "knip preset",
+    "knip config"
+  ],
+  "exports": {
+    ".": "./knip.ts",
+    "./knip.ts": "./knip.ts",
+    "./strict": "./strict.ts",
+    "./strict.ts": "./strict.ts"
+  },
+  "author": "DaniFoldi",
+  "license": "MIT",
+  "devDependencies": {
+    "bundled-eslint-config": "^0.2.5",
+    "eslint": "^8.51.0",
+    "some-tsconfig-preset": "^1.2.0",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "knip": "^2.35.0"
+  }
+}
