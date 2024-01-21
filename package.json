@@ -20,6 +20,9 @@
     "./strict": "./strict.ts",
     "./strict.ts": "./strict.ts"
   },
+  "files": [
+    "*.ts"
+  ],
   "author": "DaniFoldi",
   "license": "MIT",
   "devDependencies": {
