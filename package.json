@@ -26,10 +26,10 @@
   "author": "DaniFoldi",
   "license": "MIT",
   "devDependencies": {
-    "bundled-eslint-config": "^0.2.22",
+    "bundled-eslint-config": "^0.2.23",
     "eslint": "^8.57.0",
     "some-tsconfig-preset": "^1.5.0",
-    "typescript": "^5.3.3"
+    "typescript": "^5.4.2"
   },
   "dependencies": {
     "knip": "^5.1.0"
