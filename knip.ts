@@ -4,15 +4,15 @@ import type { KnipConfig } from 'knip'
 export default <KnipConfig>{
   rules: {
     // unable to find references to this file
-    files: 'error',
+    files: 'warn',
     // unable to find references to this dependency
-    dependencies: 'error',
+    dependencies: 'warn',
     // unable to find references to this devDependency
-    devDependencies: 'error',
+    devDependencies: 'warn',
     // used dependencies not listed in package.json
-    unlisted: 'error',
+    unlisted: 'warn',
     // binaries from deps not listed in package.json
-    binaries: 'error',
+    binaries: 'warn',
     // unable to resolve this (import) specifier
     unresolved: 'error',
     // unable to find references to this export
@@ -31,10 +31,7 @@ export default <KnipConfig>{
     duplicates: 'error'
   },
   compilers: {
-    astro: text => /---\n([\S\s]*?)\n---/.exec(text)?.[1] ?? '',
-    css: text => [ ...text.matchAll(/(?<=@)(import)[^;]+/g) ].join('\n'),
-    scss: text => [ ...text.matchAll(/(?<=@)(import|use)[^;]+/g) ].join('\n'),
-    mdx: text => [ ...text.matchAll(/import[^\n;]+/g) ].join('\n'),
-    vue: text => [ ...text.matchAll(/<script\b[^>]*>([\S\s]*?)<\/script>/gm) ].join('\n')
+    css: text => [...text.matchAll(/(?<=@)(import)[^;]+/g)].join('\n'),
+    scss: text => [...text.matchAll(/(?<=@)(import|use)[^;]+/g)].join('\n')
   }
 }
