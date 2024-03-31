@@ -32,6 +32,6 @@
     "typescript": "^5.4.2"
   },
   "dependencies": {
-    "knip": "^5.1.1"
+    "knip": "^5.7.0"
   }
 }
