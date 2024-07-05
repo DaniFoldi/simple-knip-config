@@ -26,7 +26,7 @@
   "author": "DaniFoldi",
   "license": "MIT",
   "devDependencies": {
-    "bundled-eslint-config": "^0.4.2",
+    "bundled-eslint-config": "^0.4.3",
     "eslint": "^9.6.0",
     "some-tsconfig-preset": "^1.5.0",
     "typescript": "^5.5.2"
