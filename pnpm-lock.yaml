@@ -13,16 +13,16 @@ importers:
         version: 5.27.2(@types/node@20.10.3)(typescript@5.5.4)
     devDependencies:
       bundled-eslint-config:
-        specifier: ^0.4.3
+        specifier: 0.4.3
         version: 0.4.3(@typescript-eslint/parser@7.15.0(eslint@9.8.0)(typescript@5.5.4))(eslint-plugin-import@2.28.1(@typescript-eslint/parser@7.15.0(eslint@9.8.0)(typescript@5.5.4))(eslint@9.8.0))(eslint@9.8.0)(typescript@5.5.4)
       eslint:
-        specifier: ^9.8.0
+        specifier: 9.8.0
         version: 9.8.0
       some-tsconfig-preset:
-        specifier: ^1.5.0
+        specifier: 1.5.0
         version: 1.5.0
       typescript:
-        specifier: ^5.5.4
+        specifier: 5.5.4
         version: 5.5.4
 
 packages:
@@ -550,10 +550,6 @@ packages:
   emoji-regex@9.2.2:
     resolution: {integrity: sha512-L18DaJsXSUk2+42pv8mLs5jJT2hqFkFE4j21wOmgbUqsZ2hL72NsUU785g9RXgo3s0ZNgVl42TiHp3ZtOv/Vyg==}
 
-  enhanced-resolve@5.15.0:
-    resolution: {integrity: sha512-LXYT42KJ7lpIKECr2mAXIaMldcNCh/7E0KBKOu4KSfkHmP+mZmSs+8V5gBAqisWBy0OO4W5Oyys0GO1Y8KtdKg==}
-    engines: {node: '>=10.13.0'}
-
   enhanced-resolve@5.17.1:
     resolution: {integrity: sha512-LMHl3dXhTcfv8gM4kEzIUeTQ+7fpdA0l2tUf34BddXPkz2A5xJ5L/Pchd5BL6rdccM9QGvu0sWZzK1Z1t4wwyg==}
     engines: {node: '>=10.13.0'}
@@ -772,10 +768,6 @@ packages:
   eslint-scope@7.2.2:
     resolution: {integrity: sha512-dOt21O7lTMhDM+X9mB4GX+DZrZtCUJPL/wlcTqxyrx5IvO0IYtILdtrQGQp+8n5S0gwSVmOf9NQrjMOgfQZlIg==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
-
-  eslint-scope@8.0.1:
-    resolution: {integrity: sha512-pL8XjgP4ZOmmwfFE8mEhSxA7ZY4C+LWyqjQ3o4yWkkmD0qcMT9kkW3zWHOczhWcjTSgqycYAgwSlXvZltv65og==}
-    engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
   eslint-scope@8.0.2:
     resolution: {integrity: sha512-6E4xmrTw5wtxnLA5wYL3WDfhZ/1bUBGOXV0zQvVRDOtrR8D0p6W7fs3JweNYhwRYeGvd/1CKX2se0/2s7Q/nJA==}
@@ -2235,7 +2227,7 @@ snapshots:
       astrojs-compiler-sync: 1.0.0(@astrojs/compiler@2.2.1)
       debug: 4.3.4
       entities: 4.5.0
-      eslint-scope: 8.0.1
+      eslint-scope: 8.0.2
       eslint-visitor-keys: 4.0.0
       espree: 10.1.0
       globby: 11.1.0
@@ -2510,11 +2502,6 @@ snapshots:
 
   emoji-regex@9.2.2: {}
 
-  enhanced-resolve@5.15.0:
-    dependencies:
-      graceful-fs: 4.2.11
-      tapable: 2.2.1
-
   enhanced-resolve@5.17.1:
     dependencies:
       graceful-fs: 4.2.11
@@ -2661,7 +2648,7 @@ snapshots:
   eslint-import-resolver-typescript@3.6.1(@typescript-eslint/parser@7.15.0(eslint@9.8.0)(typescript@5.5.4))(eslint-plugin-import@2.28.1(@typescript-eslint/parser@7.15.0(eslint@9.8.0)(typescript@5.5.4))(eslint@9.8.0))(eslint@9.8.0):
     dependencies:
       debug: 4.3.4
-      enhanced-resolve: 5.15.0
+      enhanced-resolve: 5.17.1
       eslint: 9.8.0
       eslint-module-utils: 2.8.0(@typescript-eslint/parser@7.15.0(eslint@9.8.0)(typescript@5.5.4))(eslint-import-resolver-typescript@3.6.1(@typescript-eslint/parser@7.15.0(eslint@9.8.0)(typescript@5.5.4))(eslint-plugin-import@2.28.1(@typescript-eslint/parser@7.15.0(eslint@9.8.0)(typescript@5.5.4))(eslint@9.8.0))(eslint@9.8.0))(eslint@9.8.0)
       eslint-plugin-import: 2.28.1(@typescript-eslint/parser@7.15.0(eslint@9.8.0)(typescript@5.5.4))(eslint@9.8.0)
@@ -2900,11 +2887,6 @@ snapshots:
       estraverse: 4.3.0
 
   eslint-scope@7.2.2:
-    dependencies:
-      esrecurse: 4.3.0
-      estraverse: 5.3.0
-
-  eslint-scope@8.0.1:
     dependencies:
       esrecurse: 4.3.0
       estraverse: 5.3.0
