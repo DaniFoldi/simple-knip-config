@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       knip:
-        specifier: ^5.27.2
-        version: 5.27.2(@types/node@20.10.3)(typescript@5.5.4)
+        specifier: ^5.33.1
+        version: 5.33.3(@types/node@20.10.3)(typescript@5.5.4)
     devDependencies:
       bundled-eslint-config:
         specifier: 0.4.3
@@ -1138,8 +1138,8 @@ packages:
   iterator.prototype@1.1.2:
     resolution: {integrity: sha512-DR33HMMr8EzwuRL8Y9D3u2BMj8+RqSE850jfGu59kS7tbmPLzGkZmVSfyCFSDxuZiEY6Rzt3T2NA/qU+NwVj1w==}
 
-  jiti@1.21.6:
-    resolution: {integrity: sha512-2yTgeWTWzMWkHu6Jp9NKgePDaYHbntiwvYuuJLbbN9vl7DC9DvXKOB2BC3ZZ92D3cvV/aflH0osDfwpHepQ53w==}
+  jiti@2.3.3:
+    resolution: {integrity: sha512-EX4oNDwcXSivPrw2qKH2LB5PoFxEvgtv2JgwW0bU858HoLQ+kutSvjLMUqBd0PeJYEinLWhoI9Ol0eYMqj/wNQ==}
     hasBin: true
 
   js-tokens@4.0.0:
@@ -1185,8 +1185,8 @@ packages:
   keyv@4.5.4:
     resolution: {integrity: sha512-oxVHkHR/EJf2CNXnWxRLW6mg7JyCCUcG0DtEGmL2ctUo1PNTin1PUil+r/+4r5MpVgC/fn1kjsx7mjSujKqIpw==}
 
-  knip@5.27.2:
-    resolution: {integrity: sha512-Mya1XEDq1oygibQf0uocQd02Fil8RtvNVhcFAcxypjcc6zakT7wsJtS0xvuwEitilfI0tiFC9PghmJQ3DMKuTg==}
+  knip@5.33.3:
+    resolution: {integrity: sha512-saUxedVDCa/8p3w445at66vLmYKretzYsX7+elMJ5ROWGzU+1aTRm3EmKELTaho1ue7BlwJB5BxLJROy43+LtQ==}
     engines: {node: '>=18.6.0'}
     hasBin: true
     peerDependencies:
@@ -1574,9 +1574,9 @@ packages:
   slashes@3.0.12:
     resolution: {integrity: sha512-Q9VME8WyGkc7pJf6QEkj3wE+2CnvZMI+XJhwdTPR8Z/kWQRXi7boAWLDibRPyHRTUTPx5FaU7MsyrjI3yLB4HA==}
 
-  smol-toml@1.1.4:
-    resolution: {integrity: sha512-Y0OT8HezWsTNeEOSVxDnKOW/AyNXHQ4BwJNbAXlLTF5wWsBvrcHhIkE5Rf8kQMLmgf7nDX3PVOlgC6/Aiggu3Q==}
-    engines: {node: '>= 18', pnpm: '>= 8'}
+  smol-toml@1.3.0:
+    resolution: {integrity: sha512-tWpi2TsODPScmi48b/OQZGi2lgUmBCHy6SZrhi/FdnnHiU1GwebbCfuQuxsC3nHaLwtYeJGPrDZDIeodDOc4pA==}
+    engines: {node: '>= 18'}
 
   some-tsconfig-preset@1.5.0:
     resolution: {integrity: sha512-rLujl6hR78fXaeDWst2cmF2HI/idbm0rJnEPaMLcQ+ggE6eihcZMryHTqmJN4gXtP52SZIKL1exdXHUqDSf5Xw==}
@@ -3288,7 +3288,7 @@ snapshots:
       reflect.getprototypeof: 1.0.4
       set-function-name: 2.0.2
 
-  jiti@1.21.6: {}
+  jiti@2.3.3: {}
 
   js-tokens@4.0.0: {}
 
@@ -3325,7 +3325,7 @@ snapshots:
     dependencies:
       json-buffer: 3.0.1
 
-  knip@5.27.2(@types/node@20.10.3)(typescript@5.5.4):
+  knip@5.33.3(@types/node@20.10.3)(typescript@5.5.4):
     dependencies:
       '@nodelib/fs.walk': 1.2.8
       '@snyk/github-codeowners': 1.1.0
@@ -3333,13 +3333,13 @@ snapshots:
       easy-table: 1.2.0
       enhanced-resolve: 5.17.1
       fast-glob: 3.3.2
-      jiti: 1.21.6
+      jiti: 2.3.3
       js-yaml: 4.1.0
       minimist: 1.2.8
       picocolors: 1.0.1
       picomatch: 4.0.1
       pretty-ms: 9.0.0
-      smol-toml: 1.1.4
+      smol-toml: 1.3.0
       strip-json-comments: 5.0.1
       summary: 2.1.0
       typescript: 5.5.4
@@ -3727,7 +3727,7 @@ snapshots:
 
   slashes@3.0.12: {}
 
-  smol-toml@1.1.4: {}
+  smol-toml@1.3.0: {}
 
   some-tsconfig-preset@1.5.0: {}
 
