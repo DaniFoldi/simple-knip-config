@@ -34,5 +34,5 @@
   "dependencies": {
     "knip": "^5.43.6"
   },
-  "packageManager": "pnpm@10.2.0"
+  "packageManager": "pnpm@10.4.1"
 }
