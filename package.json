@@ -27,9 +27,9 @@
   "license": "MIT",
   "devDependencies": {
     "bundled-eslint-config": "0.4.33",
-    "eslint": "9.23.0",
+    "eslint": "9.24.0",
     "some-tsconfig-preset": "1.6.0",
-    "typescript": "5.8.2"
+    "typescript": "5.8.3"
   },
   "dependencies": {
     "knip": "^5.46.3"
