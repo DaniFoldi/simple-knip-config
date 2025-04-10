@@ -32,7 +32,7 @@
     "typescript": "5.8.2"
   },
   "dependencies": {
-    "knip": "^5.47.0"
+    "knip": "^5.50.2"
   },
   "packageManager": "pnpm@10.7.0"
 }
