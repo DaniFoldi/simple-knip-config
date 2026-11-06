@@ -28,7 +28,7 @@
   "devDependencies": {
     "bundled-eslint-config": "0.4.33",
     "eslint": "9.23.0",
-    "some-tsconfig-preset": "1.6.0",
+    "some-tsconfig-preset": "3.0.1",
     "typescript": "5.8.2"
   },
   "dependencies": {
